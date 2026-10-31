@@ -140,4 +140,51 @@
 #             print(" ",end=" ")
 #     print()
 
+# for i in range(1,12):
+#     for j in range(i):
+#         print(int(0+i),end=" ")
+#     print()
+
+# for i in range(1,6):
+#     a=i
+#     for j in range(1,i+1):
+#         print(a,end=" ")
+#         a=a+1
+#     print()
+
+# l=[]
+# num=int(input("Enter the number of num:"))
+# for i in range(num):
+#     number=int(input(f"enter your{i+1} number : "))
+#     l.append(number)
+# print(l)
+
+
+# import random
+
+# name=input("Enter your Name:")
+
+# secret_number=random.randint(1,20)
+
+# print("Welcome",name,"!")
+# print("I have selected a number between 1 and 20.")
+# print("You have 6 attempts to guess the number.")
+
+# attempts=0
+
+# while attempts<6:
+#     guess=int(input("Enter your Guess:"))
+#     attempts+=1
+
+#     if guess<=secret_number:
+#         print("Your guess is too low")
+#     elif guess>=secret_number:
+#         print("Your guess is too high")
+#     else:
+#         print("Congratualtion", name,"!")
+#         print("You guess the corect number in",attempts,"attempts")
+#         break
+# if guess !=secret_number:
+#     print("Game Over!")
+#     print("The Correct answer was:",secret_number)
 

@@ -25,3 +25,15 @@
 #         super().__init__()
 #         print("child constructor")
 # c=child()
+
+# from abc import ABC, abstractmethod                   #abstractmethod
+# class car(ABC):
+#     @abstractmethod
+#     def start(self):
+#         pass
+# class BMW(car):
+#     def start(self):
+#         print("car started")
+
+# c=BMW()
+# c.start()

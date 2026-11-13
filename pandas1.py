@@ -184,3 +184,6 @@
 # print(df.groupby("Region")["Sales"].max())
 # print(df.groupby("Region")["Sales"].min())
 # print(df.groupby("Region").agg({"Sales":"sum","Profit":"mean"}))
+
+# df.corr(numeric_only=True)
+# df['Sales'].corr(df['Profit'])

@@ -1,32 +1,32 @@
-import pandas as pd
+# import pandas as pd
 
 # ======= FOOD DELIVERY BUSINESS DATA ANALYSIS =======
 
-data = {     
-    'Order_ID': [101, 102, 103, 104, 105,        
-                  106, 107, 108, 109, 110,         
-                  111, 112, 113, 114, 115],      
-    'City': ['Kochi', 'Calicut', 'Trivandrum', 'Kochi',         
-             'Calicut', 'Kochi', 'Trivandrum', 'Calicut',        
-               'Kochi', 'Trivandrum', 'Calicut', 'Kochi',         
-               'Trivandrum', 'Calicut', 'Kochi'],   
-   'Category': ['Pizza', 'Burger', 'Biryani', 'Pizza', 'Biryani',         
-                'Burger', 'Pizza', 'Biryani', 'Burger', 'Pizza',         
-                'Burger', 'Biryani', 'Pizza', 'Burger', 'Biryani'],      
-    'Revenue': [1200, 800, 1500, 1800, 1100,         
-                 950, 1600, 1300, 750, 2000,         
-                900, 1700, 1400, 850, 1900],      
-    'Advertising': [ 200, 100, 300, 250, 150,         
-                    120, 280, 220, 100, 350,         
-                    130, 300, 240, 110, 320],      
-    'Delivery_Time': [30, 25, 45, 35, 40,         
-                      28, 32, 42, 22, 38,        
-                      26, 43, 33, 24, 39],     
-    'Customer_Rating': [4.5, 4.2, 3.8, 4.7, 4.0,        
-                         4.3, 4.6, 3.9, 4.4, 4.8,         
-                         4.1, 3.7, 4.6, 4.3, 4.9 ]
- } 
-df = pd.DataFrame(data) 
+# data = {     
+#     'Order_ID': [101, 102, 103, 104, 105,        
+#                   106, 107, 108, 109, 110,         
+#                   111, 112, 113, 114, 115],      
+#     'City': ['Kochi', 'Calicut', 'Trivandrum', 'Kochi',         
+#              'Calicut', 'Kochi', 'Trivandrum', 'Calicut',        
+#                'Kochi', 'Trivandrum', 'Calicut', 'Kochi',         
+#                'Trivandrum', 'Calicut', 'Kochi'],   
+#    'Category': ['Pizza', 'Burger', 'Biryani', 'Pizza', 'Biryani',         
+#                 'Burger', 'Pizza', 'Biryani', 'Burger', 'Pizza',         
+#                 'Burger', 'Biryani', 'Pizza', 'Burger', 'Biryani'],      
+#     'Revenue': [1200, 800, 1500, 1800, 1100,         
+#                  950, 1600, 1300, 750, 2000,         
+#                 900, 1700, 1400, 850, 1900],      
+#     'Advertising': [ 200, 100, 300, 250, 150,         
+#                     120, 280, 220, 100, 350,         
+#                     130, 300, 240, 110, 320],      
+#     'Delivery_Time': [30, 25, 45, 35, 40,         
+#                       28, 32, 42, 22, 38,        
+#                       26, 43, 33, 24, 39],     
+#     'Customer_Rating': [4.5, 4.2, 3.8, 4.7, 4.0,        
+#                          4.3, 4.6, 3.9, 4.4, 4.8,         
+#                          4.1, 3.7, 4.6, 4.3, 4.9 ]
+#  } 
+# df = pd.DataFrame(data) 
 # print(df)
 
 #====Initial Data EXploration====

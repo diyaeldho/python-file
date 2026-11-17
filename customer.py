@@ -1,11 +1,11 @@
 # ======= Mini Project: Customer Churn Analysis Using Pandas =======
 
-import pandas as pd
+# import pandas as pd
 
 # ==== 1.Import Pandas and load dataset ====
 
-df=pd.read_csv("Customer churn prediction.csv")
-print(df)
+# df=pd.read_csv("Customer churn prediction.csv")
+# print(df)
 
 # ==== 2.Display dataset ====
 
